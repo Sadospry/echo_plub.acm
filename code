@@ -1,5 +1,8 @@
 #!/bin/bash
 
+nano activate_script.sh
+
+
 # Ask the user for input
 read -p "Activate? (yes or no): " response
 
@@ -12,4 +15,4 @@ else
     echo "Invalid input. Please type 'yes' or 'no'."
 fi
 
-echo "Executed Echo_Plub"
+chmod +x activate_script.sh
