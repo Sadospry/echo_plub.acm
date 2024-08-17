@@ -14,5 +14,3 @@ elif [[ "$response" == "no" ]]; then
 else
     echo "Invalid input. Please type 'yes' or 'no'."
 fi
-
-chmod +x activate_script.sh
