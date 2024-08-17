@@ -1,0 +1,15 @@
+#!/bin/bash
+
+# Ask the user for input
+read -p "Activate? (yes or no): " response
+
+# Check the user's response
+if [[ "$response" == "yes" ]]; then
+    echo "Executed right now"
+elif [[ "$response" == "no" ]]; then
+    echo "No action taken"
+else
+    echo "Invalid input. Please type 'yes' or 'no'."
+fi
+
+echo "Executed Echo_Plub"
